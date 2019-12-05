@@ -29,11 +29,10 @@ function App() {
           const presupuestoRestante = restante - gasto.cantidad;
           guardarRestante(presupuestoRestante);
 
-
           // Resetear a false
           guardarCrearGasto(false);
       }
-  }, [gasto]);
+  }, [gasto, creargasto, gastos, restante]);
 
 
   return (
