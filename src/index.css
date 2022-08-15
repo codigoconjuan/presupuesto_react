@@ -7,7 +7,7 @@ body {
   background: linear-gradient(to right, #004e92, #000428); 
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: sans-serif, "Arial";
 }
 header {
   margin: 30px 0;
@@ -99,5 +99,5 @@ h2 {
 .gastos-realizados li p .gasto {
   background-color: #004085;
   padding: 1rem;
-  color:white;
+  color: #ffffff;
 }
