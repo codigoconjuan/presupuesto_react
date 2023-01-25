@@ -7,6 +7,7 @@ import ControlPresupuesto from './components/ControlPresupuesto';
 function App() {
 
   // definir el state
+  // un nuevo pull request de el codigo
   const [ presupuesto, guardarPresupuesto] = useState(0);
   const [ restante, guardarRestante] = useState(0);
   const [ mostrarpregunta, actualizarPregunta ] = useState(true);
@@ -15,6 +16,7 @@ function App() {
   const [ creargasto, guardarCrearGasto ] = useState(false);
 
   // UseEffect que actualiza el restante
+  // igualmente
 
   useEffect(() => {
       if(creargasto) {
@@ -34,7 +36,7 @@ function App() {
       }
   }, [gasto, creargasto, gastos, restante]);
 
-
+// return dela app jsx
   return (
     <div className="container">
         <header>
